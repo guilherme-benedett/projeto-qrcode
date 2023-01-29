@@ -5,6 +5,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root{
+    --outfit:'Outfit', sans-serif;
+}
+
 body{
     background-color: rgba(98, 98, 244, 0.544);
     height: 100vh;
@@ -34,4 +39,8 @@ article{
 h1, p{
     text-align: center;
     padding: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    font-size: 12px;
 }
