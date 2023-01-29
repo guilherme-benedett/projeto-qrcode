@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(98, 98, 244, 0.544);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    height: 500px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+article{
+    background-image: url('../src/imagens/qrcode.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 270px;
+    border-radius: 20px;
+}
+h1, p{
+    text-align: center;
+    padding: 10px;
+}
